@@ -12,7 +12,7 @@ public class CampaignPage {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("http://192.168.61.129:8080/crm/HomePage.do");
+		driver.get("http://192.168.110.128:8080/crm/HomePage.do");
 		driver.findElement(By.id("username")).sendKeys("rashmi@dell.com");
 		driver.findElement(By.id("password")).sendKeys("123456"+Keys.ENTER);
 		
