@@ -16,11 +16,6 @@ public class CampaignPage {
 		driver.findElement(By.id("username")).sendKeys("rashmi@dell.com");
 		driver.findElement(By.id("password")).sendKeys("123456"+Keys.ENTER);
 		
-		
-		driver.quit();
-		
-		
-		
 	}
 
 }
